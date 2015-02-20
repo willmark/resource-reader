@@ -55,6 +55,10 @@ ResourceReader.prototype.checkResource = function(filepath) {
             ctype = "image/jpeg";
             break;
 
+          case ".svg":
+            ctype = "image/svg+xml";
+            break;
+
           case ".js":
             ctype = "application/x-javascript";
             break;
